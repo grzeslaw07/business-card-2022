@@ -37,6 +37,8 @@ body {
   margin-right: 32px;
   border-radius: 32px;
   width: 148px;
+  box-shadow: 4px 4px 4px #545454a9;
+  /* border:solid thin  */
 }
 
 .person__name {
@@ -71,7 +73,9 @@ body {
 .person__link {
   color: #1100ff;
   text-decoration: none;
+  transition: color 0.3s ease-in-out;
+  
 }
 .person__link:hover {
-  color: rgb(30, 80, 245);
+  color: rgb(245, 30, 41);
 }
