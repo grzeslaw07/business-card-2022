@@ -1,70 +1,71 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *:before,
-*:after{
-    box-sizing: inherit;
+*:after {
+  box-sizing: inherit;
 }
-body{
-    background: #2C2141;
+
+body {
+  background: #2c2141;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  background: #fff;
+  border-radius: 16px;
+  width: 624px;
+  margin: 16px;
+  padding: 32px;
+}
+
+.person {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.main{
-    background: #fff;
-    border-radius: 16px;
-    width: 624px;
-    margin: 16px;
-    padding: 32px;
-}
-
-.person{
-
-}
-
-.person__name{
-font-size: 36px;
-margin: 0;
-font-weight: normal;
-
-}
-
-.person__position{
-    font-size: 18;
-    color: #545454;
-    margin-top: 0;
-    margin-bottom: 24px;
-    font-style: italic;
-}
-
-.person-descripnion{
-    font-size: 16px;
-    line-height: 22px;
-    margin: 0px;
-}
-
-.person__description--with-margine{
-    margin-bottom: 22px;
+    align-items: flex-start;
 }
 
 .person__photo{
+    margin-right:32px ;
     border-radius: 50%;
     width: 148px;
 }
 
-.special{
-color: #ED6D05; 
-font-weight: normal;
+.person__name {
+  font-size: 36px;
+  margin: 0;
+  font-weight: normal;
 }
 
-.person__link{
-    color: #E20613;
-    text-decoration: none ;
+.person__position {
+  font-size: 18;
+  color: #545454;
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-style: italic;
+}
 
+.person-descripnion {
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0px;
+}
+
+.person__description--with-margine {
+  margin-bottom: 22px;
+}
+
+.special {
+  color: #ed6d05;
+  font-weight: normal;
+}
+
+.person__link {
+  color: #e20613;
+  text-decoration: none;
 }
