@@ -24,13 +24,38 @@ body{
     padding: 32px;
 }
 
-.person-photo{
+.person{
+
+}
+
+.person__name{
+font-size: 36px;
+margin: 0;
+font-weight: normal;
+
+}
+
+.person__position{
+    font-size: 18;
+    color: #545454;
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-style: italic;
+}
+
+.person-descripnion{
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.person__photo{
     border-radius: 50%;
     width: 148px;
 }
 
 .special{
 color: #ED6D05; 
+font-weight: normal;
 }
 
 .person-link{
