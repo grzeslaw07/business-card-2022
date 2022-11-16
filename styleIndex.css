@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+body{
+    background: #2C2141;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    background: #fff;
+    border-radius: 16px;
+    width: 624px;
+    margin: 16px;
+    padding: 32px;
+}
+
+.person-photo{
+    border-radius: 50%;
+    width: 148px;
+}
+
+.special{
+color: #ED6D05; 
+}
+
+.person-link{
+    color: #E20613;
+}
