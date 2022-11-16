@@ -9,16 +9,17 @@ html {
 }
 
 body {
-  background: #2c2141;
+  background-image: url(image/pexels-ann-h-1762851.jpg);
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  max-height: 1440vh;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .main {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.815);
   border-radius: 16px;
   width: 624px;
   margin: 16px;
@@ -26,14 +27,14 @@ body {
 }
 
 .person {
-    display: flex;
-    align-items: flex-start;
+  display: flex;
+  align-items: flex-start;
 }
 
-.person__photo{
-    margin-right:32px ;
-    border-radius: 50%;
-    width: 148px;
+.person__photo {
+  margin-right: 32px;
+  border-radius: 32px;
+  width: 148px;
 }
 
 .person__name {
@@ -61,11 +62,14 @@ body {
 }
 
 .special {
-  color: #ed6d05;
+  color: #ca2305;
   font-weight: normal;
 }
 
 .person__link {
-  color: #e20613;
+  color: #962511;
   text-decoration: none;
+}
+.person__link:hover {
+  color: rgb(30, 80, 245);
 }
