@@ -46,6 +46,11 @@ font-weight: normal;
 .person-descripnion{
     font-size: 16px;
     line-height: 22px;
+    margin: 0px;
+}
+
+.person__description--with-margine{
+    margin-bottom: 22px;
 }
 
 .person__photo{
@@ -58,6 +63,8 @@ color: #ED6D05;
 font-weight: normal;
 }
 
-.person-link{
+.person__link{
     color: #E20613;
+    text-decoration: none ;
+
 }
