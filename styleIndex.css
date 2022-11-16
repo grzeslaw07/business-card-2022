@@ -10,6 +10,7 @@ html {
 
 body {
   background-image: url(image/pexels-ann-h-1762851.jpg);
+  background-size:cover;    
   display: flex;
   align-items: center;
   justify-content: center;
@@ -62,12 +63,12 @@ body {
 }
 
 .special {
-  color: #ca2305;
+  color: #1100ff;
   font-weight: normal;
 }
 
 .person__link {
-  color: #962511;
+  color: ##180669;
   text-decoration: none;
 }
 .person__link:hover {
